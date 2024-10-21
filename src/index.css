@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  /* Color de fondo suave */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+#h5{
+  color: white;
+  font-family: Verdana;
+  font-style: italic;
+  font-weight: bold;
+}
+#form {
+  background-color: #696969;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#h3 {
+  background-color: #ae00ff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+
+#cola {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#div {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+#h1 {
+  background-color: #dc3545;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+
+#h2 {
+  background-color: #007bff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+}
+/* Estilos para el formulario */
+form {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+
+
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para la tarjeta de gestión de cola */
+.gestion-cola {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.gestion-cola p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+button.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+button.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Estilo para la lista de pacientes */
+.paciente-item {
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.paciente-item:last-child {
+  border-bottom: none;
+}
+
+.paciente-item p {
+  margin: 0;
+  font-size: 1rem;
+}
